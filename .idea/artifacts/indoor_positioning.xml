@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="indoor-positioning">
+    <output-path>$PROJECT_DIR$/out/artifacts/indoor_positioning</output-path>
+    <root id="archive" name="indoor-positioning.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="IndoorPositioningRestApi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="asm-3.1" />
+          <element id="library" level="project" name="indoor-positioning-model-1.0" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>

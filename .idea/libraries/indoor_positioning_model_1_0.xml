@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="indoor-positioning-model-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../IndoorPositioningModelLibrary/out/artifacts/indoor_positioning_model_1_0/indoor-positioning-model-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
